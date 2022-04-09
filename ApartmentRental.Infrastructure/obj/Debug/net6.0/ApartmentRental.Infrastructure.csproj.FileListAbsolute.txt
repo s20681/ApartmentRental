@@ -1,0 +1,15 @@
+Z:\DOT\ApartmentRental.API\ApartmentRental.Infrastructure\bin\Debug\net6.0\ApartmentRental.Infrastructure.deps.json
+Z:\DOT\ApartmentRental.API\ApartmentRental.Infrastructure\bin\Debug\net6.0\ApartmentRental.Infrastructure.dll
+Z:\DOT\ApartmentRental.API\ApartmentRental.Infrastructure\bin\Debug\net6.0\ApartmentRental.Infrastructure.pdb
+Z:\DOT\ApartmentRental.API\ApartmentRental.Infrastructure\bin\Debug\net6.0\ApartmentRental.Core.dll
+Z:\DOT\ApartmentRental.API\ApartmentRental.Infrastructure\bin\Debug\net6.0\ApartmentRental.Core.pdb
+Z:\DOT\ApartmentRental.API\ApartmentRental.Infrastructure\obj\Debug\net6.0\ApartmentRental.Infrastructure.csproj.AssemblyReference.cache
+Z:\DOT\ApartmentRental.API\ApartmentRental.Infrastructure\obj\Debug\net6.0\ApartmentRental.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+Z:\DOT\ApartmentRental.API\ApartmentRental.Infrastructure\obj\Debug\net6.0\ApartmentRental.Infrastructure.AssemblyInfoInputs.cache
+Z:\DOT\ApartmentRental.API\ApartmentRental.Infrastructure\obj\Debug\net6.0\ApartmentRental.Infrastructure.AssemblyInfo.cs
+Z:\DOT\ApartmentRental.API\ApartmentRental.Infrastructure\obj\Debug\net6.0\ApartmentRental.Infrastructure.csproj.CoreCompileInputs.cache
+Z:\DOT\ApartmentRental.API\ApartmentRental.Infrastructure\obj\Debug\net6.0\ApartmentRental.Infrastructure.csproj.CopyComplete
+Z:\DOT\ApartmentRental.API\ApartmentRental.Infrastructure\obj\Debug\net6.0\ApartmentRental.Infrastructure.dll
+Z:\DOT\ApartmentRental.API\ApartmentRental.Infrastructure\obj\Debug\net6.0\refint\ApartmentRental.Infrastructure.dll
+Z:\DOT\ApartmentRental.API\ApartmentRental.Infrastructure\obj\Debug\net6.0\ApartmentRental.Infrastructure.pdb
+Z:\DOT\ApartmentRental.API\ApartmentRental.Infrastructure\obj\Debug\net6.0\ref\ApartmentRental.Infrastructure.dll

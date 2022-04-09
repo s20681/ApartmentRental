@@ -52,3 +52,7 @@ Z:\DOT\ApartmentRental.API\ApartmentRental.API\bin\Debug\net6.0\runtimes\win-arm
 Z:\DOT\ApartmentRental.API\ApartmentRental.API\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
 Z:\DOT\ApartmentRental.API\ApartmentRental.API\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
 Z:\DOT\ApartmentRental.API\ApartmentRental.API\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+Z:\DOT\ApartmentRental.API\ApartmentRental.API\bin\Debug\net6.0\ApartmentRental.Core.dll
+Z:\DOT\ApartmentRental.API\ApartmentRental.API\bin\Debug\net6.0\ApartmentRental.Infrastructure.dll
+Z:\DOT\ApartmentRental.API\ApartmentRental.API\bin\Debug\net6.0\ApartmentRental.Infrastructure.pdb
+Z:\DOT\ApartmentRental.API\ApartmentRental.API\bin\Debug\net6.0\ApartmentRental.Core.pdb
