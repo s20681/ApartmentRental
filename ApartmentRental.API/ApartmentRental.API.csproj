@@ -27,8 +27,4 @@
       <ProjectReference Include="..\ApartmentRental.Infrastructure\ApartmentRental.Infrastructure.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Controllers" />
-    </ItemGroup>
-
 </Project>

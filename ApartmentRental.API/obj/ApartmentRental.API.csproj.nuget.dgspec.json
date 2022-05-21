@@ -1,36 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "/home/adam/Pulpit/ApartmentRental/ApartmentRental.API/ApartmentRental.API.csproj": {}
+    "Z:\\DOT\\ApartmentRental.API\\ApartmentRental.API\\ApartmentRental.API.csproj": {}
   },
   "projects": {
-    "/home/adam/Pulpit/ApartmentRental/ApartmentRental.API/ApartmentRental.API.csproj": {
+    "Z:\\DOT\\ApartmentRental.API\\ApartmentRental.API\\ApartmentRental.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/adam/Pulpit/ApartmentRental/ApartmentRental.API/ApartmentRental.API.csproj",
+        "projectUniqueName": "Z:\\DOT\\ApartmentRental.API\\ApartmentRental.API\\ApartmentRental.API.csproj",
         "projectName": "ApartmentRental.API",
-        "projectPath": "/home/adam/Pulpit/ApartmentRental/ApartmentRental.API/ApartmentRental.API.csproj",
-        "packagesPath": "/home/adam/.nuget/packages/",
-        "outputPath": "/home/adam/Pulpit/ApartmentRental/ApartmentRental.API/obj/",
+        "projectPath": "Z:\\DOT\\ApartmentRental.API\\ApartmentRental.API\\ApartmentRental.API.csproj",
+        "packagesPath": "C:\\Users\\s20681\\.nuget\\packages\\",
+        "outputPath": "Z:\\DOT\\ApartmentRental.API\\ApartmentRental.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
+        ],
         "configFilePaths": [
-          "/home/adam/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\s20681\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/adam/Pulpit/ApartmentRental/ApartmentRental.Core/ApartmentRental.Core.csproj": {
-                "projectPath": "/home/adam/Pulpit/ApartmentRental/ApartmentRental.Core/ApartmentRental.Core.csproj"
+              "Z:\\DOT\\ApartmentRental.API\\ApartmentRental.Core\\ApartmentRental.Core.csproj": {
+                "projectPath": "Z:\\DOT\\ApartmentRental.API\\ApartmentRental.Core\\ApartmentRental.Core.csproj"
               },
-              "/home/adam/Pulpit/ApartmentRental/ApartmentRental.Infrastructure/ApartmentRental.Infrastructure.csproj": {
-                "projectPath": "/home/adam/Pulpit/ApartmentRental/ApartmentRental.Infrastructure/ApartmentRental.Infrastructure.csproj"
+              "Z:\\DOT\\ApartmentRental.API\\ApartmentRental.Infrastructure\\ApartmentRental.Infrastructure.csproj": {
+                "projectPath": "Z:\\DOT\\ApartmentRental.API\\ApartmentRental.Infrastructure\\ApartmentRental.Infrastructure.csproj"
               }
             }
           }
@@ -88,34 +94,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/6.0.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/adam/Pulpit/ApartmentRental/ApartmentRental.Core/ApartmentRental.Core.csproj": {
+    "Z:\\DOT\\ApartmentRental.API\\ApartmentRental.Core\\ApartmentRental.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/adam/Pulpit/ApartmentRental/ApartmentRental.Core/ApartmentRental.Core.csproj",
+        "projectUniqueName": "Z:\\DOT\\ApartmentRental.API\\ApartmentRental.Core\\ApartmentRental.Core.csproj",
         "projectName": "ApartmentRental.Core",
-        "projectPath": "/home/adam/Pulpit/ApartmentRental/ApartmentRental.Core/ApartmentRental.Core.csproj",
-        "packagesPath": "/home/adam/.nuget/packages/",
-        "outputPath": "/home/adam/Pulpit/ApartmentRental/ApartmentRental.Core/obj/",
+        "projectPath": "Z:\\DOT\\ApartmentRental.API\\ApartmentRental.Core\\ApartmentRental.Core.csproj",
+        "packagesPath": "C:\\Users\\s20681\\.nuget\\packages\\",
+        "outputPath": "Z:\\DOT\\ApartmentRental.API\\ApartmentRental.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
+        ],
         "configFilePaths": [
-          "/home/adam/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\s20681\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/adam/Pulpit/ApartmentRental/ApartmentRental.Infrastructure/ApartmentRental.Infrastructure.csproj": {
-                "projectPath": "/home/adam/Pulpit/ApartmentRental/ApartmentRental.Infrastructure/ApartmentRental.Infrastructure.csproj"
+              "Z:\\DOT\\ApartmentRental.API\\ApartmentRental.Infrastructure\\ApartmentRental.Infrastructure.csproj": {
+                "projectPath": "Z:\\DOT\\ApartmentRental.API\\ApartmentRental.Infrastructure\\ApartmentRental.Infrastructure.csproj"
               }
             }
           }
@@ -144,26 +156,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/6.0.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/adam/Pulpit/ApartmentRental/ApartmentRental.Infrastructure/ApartmentRental.Infrastructure.csproj": {
+    "Z:\\DOT\\ApartmentRental.API\\ApartmentRental.Infrastructure\\ApartmentRental.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/adam/Pulpit/ApartmentRental/ApartmentRental.Infrastructure/ApartmentRental.Infrastructure.csproj",
+        "projectUniqueName": "Z:\\DOT\\ApartmentRental.API\\ApartmentRental.Infrastructure\\ApartmentRental.Infrastructure.csproj",
         "projectName": "ApartmentRental.Infrastructure",
-        "projectPath": "/home/adam/Pulpit/ApartmentRental/ApartmentRental.Infrastructure/ApartmentRental.Infrastructure.csproj",
-        "packagesPath": "/home/adam/.nuget/packages/",
-        "outputPath": "/home/adam/Pulpit/ApartmentRental/ApartmentRental.Infrastructure/obj/",
+        "projectPath": "Z:\\DOT\\ApartmentRental.API\\ApartmentRental.Infrastructure\\ApartmentRental.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\s20681\\.nuget\\packages\\",
+        "outputPath": "Z:\\DOT\\ApartmentRental.API\\ApartmentRental.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
+        ],
         "configFilePaths": [
-          "/home/adam/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\s20681\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -212,7 +230,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/6.0.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
