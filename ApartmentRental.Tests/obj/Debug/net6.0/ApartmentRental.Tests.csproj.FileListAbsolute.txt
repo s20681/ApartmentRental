@@ -1,0 +1,5 @@
+C:\Users\s20831\RiderProjects\ApartmentRental.API\ApartmentRental.Tests\obj\Debug\net6.0\ApartmentRental.Tests.csproj.AssemblyReference.cache
+C:\Users\s20831\RiderProjects\ApartmentRental.API\ApartmentRental.Tests\obj\Debug\net6.0\ApartmentRental.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s20831\RiderProjects\ApartmentRental.API\ApartmentRental.Tests\obj\Debug\net6.0\ApartmentRental.Tests.AssemblyInfoInputs.cache
+C:\Users\s20831\RiderProjects\ApartmentRental.API\ApartmentRental.Tests\obj\Debug\net6.0\ApartmentRental.Tests.AssemblyInfo.cs
+C:\Users\s20831\RiderProjects\ApartmentRental.API\ApartmentRental.Tests\obj\Debug\net6.0\ApartmentRental.Tests.csproj.CoreCompileInputs.cache
