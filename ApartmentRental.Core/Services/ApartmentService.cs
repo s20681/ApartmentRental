@@ -20,7 +20,7 @@ public class ApartmentService : IApartmentService
 
     public async Task<IEnumerable<ApartmentBasicInformationResponseDto>> GetAllApartmentsBasicInfosAsync()
     {
-        var apartments = await _apartmentRepository.GetAll();
+        var apartments = await _apartmentRepository.GetAllAsync();
 
         return apartments.Select(x => new ApartmentBasicInformationResponseDto(
             x.RentAmount,
@@ -53,7 +53,7 @@ public class ApartmentService : IApartmentService
 
     public async Task<ApartmentBasicInformationResponseDto?> GetTheCheapestApartmentAsync()
     {
-        var apartments = await _apartmentRepository.GetAll();
+        var apartments = await _apartmentRepository.GetAllAsync();
 
         var cheapestOne = apartments.MinBy(x => x.RentAmount);
 

@@ -1,31 +1,169 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\DOT\\ApartmentRental.API\\ApartmentRental.Tests\\ApartmentRental.Tests.csproj": {}
+    "/home/mza/RiderProjects/ApartmentRental/ApartmentRental.Tests/ApartmentRental.Tests.csproj": {}
   },
   "projects": {
-    "Z:\\DOT\\ApartmentRental.API\\ApartmentRental.Tests\\ApartmentRental.Tests.csproj": {
+    "/home/mza/RiderProjects/ApartmentRental/ApartmentRental.API/ApartmentRental.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\DOT\\ApartmentRental.API\\ApartmentRental.Tests\\ApartmentRental.Tests.csproj",
-        "projectName": "ApartmentRental.Tests",
-        "projectPath": "Z:\\DOT\\ApartmentRental.API\\ApartmentRental.Tests\\ApartmentRental.Tests.csproj",
-        "packagesPath": "C:\\Users\\s20681\\.nuget\\packages\\",
-        "outputPath": "Z:\\DOT\\ApartmentRental.API\\ApartmentRental.Tests\\obj\\",
+        "projectUniqueName": "/home/mza/RiderProjects/ApartmentRental/ApartmentRental.API/ApartmentRental.API.csproj",
+        "projectName": "ApartmentRental.API",
+        "projectPath": "/home/mza/RiderProjects/ApartmentRental/ApartmentRental.API/ApartmentRental.API.csproj",
+        "packagesPath": "/home/mza/.nuget/packages/",
+        "outputPath": "/home/mza/RiderProjects/ApartmentRental/ApartmentRental.API/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
-        ],
         "configFilePaths": [
-          "C:\\Users\\s20681\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/home/mza/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/mza/RiderProjects/ApartmentRental/ApartmentRental.Core/ApartmentRental.Core.csproj": {
+                "projectPath": "/home/mza/RiderProjects/ApartmentRental/ApartmentRental.Core/ApartmentRental.Core.csproj"
+              },
+              "/home/mza/RiderProjects/ApartmentRental/ApartmentRental.Infrastructure/ApartmentRental.Infrastructure.csproj": {
+                "projectPath": "/home/mza/RiderProjects/ApartmentRental/ApartmentRental.Infrastructure/ApartmentRental.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/mza/.dotnet/sdk/6.0.105/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mza/RiderProjects/ApartmentRental/ApartmentRental.Core/ApartmentRental.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mza/RiderProjects/ApartmentRental/ApartmentRental.Core/ApartmentRental.Core.csproj",
+        "projectName": "ApartmentRental.Core",
+        "projectPath": "/home/mza/RiderProjects/ApartmentRental/ApartmentRental.Core/ApartmentRental.Core.csproj",
+        "packagesPath": "/home/mza/.nuget/packages/",
+        "outputPath": "/home/mza/RiderProjects/ApartmentRental/ApartmentRental.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mza/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/mza/RiderProjects/ApartmentRental/ApartmentRental.Infrastructure/ApartmentRental.Infrastructure.csproj": {
+                "projectPath": "/home/mza/RiderProjects/ApartmentRental/ApartmentRental.Infrastructure/ApartmentRental.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/mza/.dotnet/sdk/6.0.105/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mza/RiderProjects/ApartmentRental/ApartmentRental.Infrastructure/ApartmentRental.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mza/RiderProjects/ApartmentRental/ApartmentRental.Infrastructure/ApartmentRental.Infrastructure.csproj",
+        "projectName": "ApartmentRental.Infrastructure",
+        "projectPath": "/home/mza/RiderProjects/ApartmentRental/ApartmentRental.Infrastructure/ApartmentRental.Infrastructure.csproj",
+        "packagesPath": "/home/mza/.nuget/packages/",
+        "outputPath": "/home/mza/RiderProjects/ApartmentRental/ApartmentRental.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mza/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,9 +182,95 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/mza/.dotnet/sdk/6.0.105/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mza/RiderProjects/ApartmentRental/ApartmentRental.Tests/ApartmentRental.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mza/RiderProjects/ApartmentRental/ApartmentRental.Tests/ApartmentRental.Tests.csproj",
+        "projectName": "ApartmentRental.Tests",
+        "projectPath": "/home/mza/RiderProjects/ApartmentRental/ApartmentRental.Tests/ApartmentRental.Tests.csproj",
+        "packagesPath": "/home/mza/.nuget/packages/",
+        "outputPath": "/home/mza/RiderProjects/ApartmentRental/ApartmentRental.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mza/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/mza/RiderProjects/ApartmentRental/ApartmentRental.API/ApartmentRental.API.csproj": {
+                "projectPath": "/home/mza/RiderProjects/ApartmentRental/ApartmentRental.API/ApartmentRental.API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.7.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.11.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.1, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -80,7 +304,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/mza/.dotnet/sdk/6.0.105/RuntimeIdentifierGraph.json"
         }
       }
     }

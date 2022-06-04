@@ -14,7 +14,7 @@ public class AddressRepository : IAddressRepository
         _mainContext = mainContext;
     }
 
-    public async Task<IEnumerable<Address>> GetAll()
+    public async Task<IEnumerable<Address>> GetAllAsync()
     {
         var addresses = await _mainContext.Address.ToListAsync();
         return addresses;

@@ -14,7 +14,7 @@ public class ImageRepository : IImageRepository
         _mainContext = mainContext;
     }
 
-    public async Task<IEnumerable<Image>> GetAll()
+    public async Task<IEnumerable<Image>> GetAllAsync()
     {
         var images = await _mainContext.Image.ToListAsync();
 

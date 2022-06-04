@@ -14,7 +14,7 @@ public class TenantRepository : ITenantRepository
         _mainContext = mainContext;
     }
 
-    public async Task<IEnumerable<Tenant>> GetAll()
+    public async Task<IEnumerable<Tenant>> GetAllAsync()
     {
         var tenants = await _mainContext.Tenant.ToListAsync();
 
