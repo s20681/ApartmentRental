@@ -18,7 +18,7 @@ public class ApartmentService : IApartmentService
         _addressService = addressService;
     }
 
-    public async Task<IEnumerable<ApartmentBasicInformationResponseDto>> GetAllApartmentsBasinInfosAsync()
+    public async Task<IEnumerable<ApartmentBasicInformationResponseDto>> GetAllApartmentsBasicInfosAsync()
     {
         var apartments = await _apartmentRepository.GetAll();
 

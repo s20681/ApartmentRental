@@ -4,7 +4,7 @@ namespace ApartmentRental.Core.Services;
 
 public interface IApartmentService
 {
-    Task<IEnumerable<ApartmentBasicInformationResponseDto>> GetAllApartmentsBasinInfosAsync();
+    Task<IEnumerable<ApartmentBasicInformationResponseDto>> GetAllApartmentsBasicInfosAsync();
 
     Task AddNewApartmentToExistingLandLordAsync(ApartmentCreationRequestDto dto);
 
